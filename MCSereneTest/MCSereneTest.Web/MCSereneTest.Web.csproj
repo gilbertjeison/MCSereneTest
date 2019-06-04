@@ -190,6 +190,7 @@
     <Content Include="Content\images\expand.gif" />
     <Content Include="Content\images\header-columns-bg.gif" />
     <Content Include="Content\images\header-columns-over-bg.gif" />
+    <Content Include="Content\images\logo.jpg" />
     <Content Include="Content\images\sort-asc.gif" />
     <Content Include="Content\images\sort-desc.gif" />
     <Content Include="Content\ionicons.css" />
@@ -512,6 +513,14 @@
     <Content Include="Content\serenity\images\zoom.png" />
     <Content Include="Content\serenity\serenity.css" />
     <Content Include="Content\simple-line-icons.css" />
+    <Content Include="Content\site\slides\image1.jpg" />
+    <Content Include="Content\site\slides\image2.jpg" />
+    <Content Include="Content\site\slides\image3.jpg" />
+    <Content Include="Content\site\slides\image4.jpg" />
+    <Content Include="Content\site\slides\image5.jpg" />
+    <Content Include="Content\site\slides\image6.jpg" />
+    <Content Include="Content\site\slides\image7.jpg" />
+    <Content Include="Content\site\slides\image8.jpg" />
     <Content Include="Content\slick-default-theme.css" />
     <Content Include="Content\slick.columnpicker.css" />
     <Content Include="Content\slick.grid.css" />
@@ -565,6 +574,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\ionicons.svg" />
     <Content Include="fonts\Simple-Line-Icons.svg" />
+    <Content Include="favicon.ico" />
     <Content Include="Readme.CodeGenerator.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -972,6 +982,9 @@
     <Content Include="tools\Node\lessc.cmd" />
     <Content Include="tools\JsEngine\lib.d.ts_" />
     <None Include="tsconfig.json" />
+    <TypeScriptCompile Include="Imports\ServerTypings\Texts.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="node_modules\%40types\jquery\index.d.ts" />
     <TypeScriptCompile Include="node_modules\%40types\jqueryui\index.d.ts" />
     <TypeScriptCompile Include="node_modules\%40types\jquery.blockui\index.d.ts" />
@@ -1237,7 +1250,6 @@
     <Content Include="Content\site\slides\slide1.jpg" />
     <Content Include="Content\site\slides\slide2.jpg" />
     <Content Include="Content\site\slides\slide3.jpg" />
-    <Content Include="favicon.ico" />
     <Content Include="Imports\MultipleOutputHelper.ttinclude" />
     <Content Include="Content\site\site.administration.less" />
     <EmbeddedResource Include="Migrations\NorthwindDB\NorthwindDBScript_Postgres.sql" />
@@ -2241,9 +2253,6 @@
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Imports\ServerTypings\BasicSamples.OrdersByShipperResponse.ts">
-      <DependentUpon>ServerTypings.tt</DependentUpon>
-    </TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Common.Pages.UploadResponse.ts">
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Imports\ServerTypings\Membership.ChangePasswordForm.ts">

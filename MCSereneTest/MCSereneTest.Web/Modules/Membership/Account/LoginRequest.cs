@@ -8,9 +8,9 @@ namespace MCSereneTest.Membership
     [BasedOnRow(typeof(Administration.Entities.UserRow))]
     public class LoginRequest : ServiceRequest
     {
-        [Placeholder("default username is 'admin'")]
+        [Placeholder("admin...")]
         public string Username { get; set; }
-        [PasswordEditor, Placeholder("default password for 'admin' is 'serenity'"), Required(true)]
+        [PasswordEditor, Placeholder("serenity..."), Required(true)]
         public string Password { get; set; }
     }
 }
